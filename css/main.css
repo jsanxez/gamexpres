@@ -613,9 +613,10 @@ img.centered {
 }
 .navbar-burger .navbar-header {
   width: 100%;
+  padding: 10px;
 }
 .navbar-brand {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: bold;
   padding: 16px;
   color: #4a4c4d;
@@ -625,7 +626,7 @@ img.centered {
 }
 .burger-menu {
   float: right;
-  font-size: 1.5em;
+  font-size: 1.7em;
   line-height: 2.5;
   color: #4a4c4d;
   cursor: pointer;

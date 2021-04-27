@@ -67,7 +67,7 @@ $(document).ready(function () {
         if (menuWrapper.hasClass("is-visible")) {
             setTimeout(function () {
                 overlayMenu.removeClass('menu-visible').css("opacity", "0").attr("aria-expanded", "false");
-                burgerMenu.removeClass('icon-cross').addClass('icon-menu');
+                burgerMenu.removeClass('icon-cancel').addClass('icon-menu');
                 burgerItems.css("color", "inherit");
                 setTimeout(function () {
                     menuWrapper.removeClass('is-visible').css("display", "none");
@@ -75,7 +75,7 @@ $(document).ready(function () {
             }, 600);
         } else {
             event.preventDefault();
-            burgerMenu.removeClass('icon-menu').addClass('icon-cross');
+            burgerMenu.removeClass('icon-menu').addClass('icon-cancel');
             burgerItems.css("color", "#4a4c4d");
             setTimeout(function () {
                 menuWrapper.addClass('is-visible').css("display", "block");
