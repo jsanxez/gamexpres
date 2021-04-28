@@ -605,7 +605,7 @@ img.centered {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navbar-burger {
   background-color: var(--purple-color);
-  color: #4a4c4d;
+  color: white;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
@@ -622,8 +622,17 @@ img.centered {
 .navbar-brand {
   font-size: 1.7em;
   font-weight: bold;
-  padding: 16px;
   color: var(--white-color);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-top: 5px;
+}
+.navbar-brand .header-logo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
 }
 .navbar-brand:hover {
   color: var(--white-color);
