@@ -44,6 +44,11 @@
  */
 /* Default
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --orange-color: #FF7F2A;
+  --purple-color: #2514B3;
+  --white-color: white;
+}
 html,
 body {
   margin: 0;
@@ -70,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   text-rendering: optimizeLegibility;
 }
@@ -218,11 +223,11 @@ img.centered {
   color: inherit;
 }
 .bigtitle {
-  font-weight: 800;
+  font-weight: 600;
 }
 @media (min-width: 768px) {
   .bigtitle {
-    font-size: 325%;
+    /* font-size: 325%; */
   }
 }
 /* Flexbox */
@@ -314,12 +319,15 @@ img.centered {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .btn {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 6px 16px;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   -o-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
+  border: none;
+  background-color: var(--orange-color);
+  color: white;
 }
 .btn.rounded {
   -webkit-border-radius: 1000px;
@@ -599,8 +607,7 @@ img.centered {
 /* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .navbar-burger {
-  background-color: #fff;
-  border-color: #eee;
+  background-color: var(--purple-color);
   color: #4a4c4d;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -619,16 +626,16 @@ img.centered {
   font-size: 1.7em;
   font-weight: bold;
   padding: 16px;
-  color: #4a4c4d;
+  color: var(--white-color);
 }
 .navbar-brand:hover {
-  color: #727374;
+  color: var(--white-color);
 }
 .burger-menu {
   float: right;
   font-size: 1.7em;
   line-height: 2.5;
-  color: #4a4c4d;
+  color: var(--white-color);
   cursor: pointer;
   background: transparent;
   border: none;
