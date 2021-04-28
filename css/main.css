@@ -57,7 +57,7 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   color: #626567;
   background-color: #fff;
@@ -162,9 +162,9 @@ img.centered {
   }
 }
 .title {
+  font-size: 1.7em;
   font-weight: bold;
-  position: relative;
-  margin-bottom: 16px;
+  margin: 20px 0;
 }
 .section-title {
   font-weight: bold;
@@ -705,7 +705,7 @@ img.centered {
   list-style: none;
 }
 .overlay-menu .navigation li {
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25em;
   font-weight: 400;
   letter-spacing: 3px;
@@ -801,30 +801,23 @@ img.centered {
 .section.no-padding {
   padding: 0;
 }
-/* Clients
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.slick-slider.clients-logo {
-  margin-bottom: 0;
-}
-.clients {
-  -webkit-box-shadow: 0 1px 40px -24px #dddddd;
-  -moz-box-shadow: 0 1px 40px -24px #dddddd;
-  -o-box-shadow: 0 1px 40px -24px #dddddd;
-  box-shadow: 0 1px 40px -24px #dddddd;
-  z-index: 2;
-}
+
 /* Features
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .feature {
-  position: relative;
   display: block;
   padding: 3em 1em;
   background: #fff none repeat scroll 0 0;
   z-index: 1;
 }
-.feature .icon {
-  font-size: 6em;
-  color: #4d5656;
+.feature .feature-img {
+  margin: auto;
+  width: 128px;
+  height: 128px;
+}
+.feature .feature-text {
+  font-size: 1.1em;
+  margin-bottom: 25px;
 }
 /* Counters
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -842,7 +835,7 @@ img.centered {
 .number {
   display: block;
   min-height: 1em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4.5em;
   font-weight: bold;
   line-height: 1;
@@ -850,7 +843,7 @@ img.centered {
 }
 .number-info {
   display: block;
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 900;
   color: inherit;
@@ -1033,7 +1026,7 @@ img.centered {
 }
 .pricing-table .title {
   font-size: 1.25em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   background: #F8F9F9 none repeat scroll 0 0;
@@ -1047,7 +1040,7 @@ img.centered {
 }
 .pricing-table .price {
   font-size: 2em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin: 0.5em 0;
 }
@@ -1226,7 +1219,7 @@ img.centered {
   padding: 0;
 }
 .panel-title {
-  font-family: "Inconsolata", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .panel-heading .panel-title a[data-toggle="collapse"] {
   position: relative;
@@ -1575,7 +1568,7 @@ img.centered {
 .timer {
   display: block;
   margin: 1em auto 1em;
-  font-family: "Dosis", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   height: 122px;
