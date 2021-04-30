@@ -280,7 +280,6 @@ img.centered {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 100vh;
 }
 .flex.flex-bottom {
   -webkit-box-align: end;
@@ -1185,6 +1184,11 @@ img.centered {
 }
 .get-started {
   background-color: #eaf2f8;
+}
+.call-whatsapp {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 .gallery {
   display: none;
