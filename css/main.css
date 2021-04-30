@@ -326,6 +326,13 @@ img.centered {
   color: white;
   margin-bottom: 36px;
 }
+.btn:disabled {
+  background-color: var(--orange-color);
+}
+.btn:disabled:hover {
+  background-color: red;
+  color: var(--white-color);
+}
 .btn.rounded {
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
