@@ -48,6 +48,7 @@
   --orange-color: #FF7F2A;
   --purple-color: #2514B3;
   --white-color: white;
+  --whatsapp-color: #00E676;
 }
 html,
 body {
@@ -325,6 +326,9 @@ img.centered {
   background-color: var(--orange-color);
   color: white;
   margin-bottom: 36px;
+}
+.btn-success {
+  background-color: var(--whatsapp-color);
 }
 .btn:disabled {
   background-color: var(--orange-color);
