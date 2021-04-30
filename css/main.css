@@ -47,6 +47,7 @@
 :root {
   --orange-color: #FF7F2A;
   --purple-color: #2514B3;
+  --purple-color-dark: #160c6b;
   --white-color: white;
   --whatsapp-color: #00E676;
 }
@@ -815,6 +816,9 @@ img.centered {
 
 /* Features
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.map {
+  margin-top: 20px;
+}
 .feature {
   display: block;
   padding: 3em 1em;
@@ -1169,13 +1173,17 @@ img.centered {
   width: 100%;
   height: auto;
   color: #eeeeee;
-  background-color: #75706D;
-  background-color: #5B5855;
+  background-color: var(--purple-color);
   padding: 6em 0 4em;
   text-align: center;
 }
 .footer a {
   color: inherit;
+}
+
+.footer .footer-socialmedia {
+  width: 32px;
+  height: 32px;
 }
 .footer.is-fixed {
   position: fixed;
