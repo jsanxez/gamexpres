@@ -841,6 +841,14 @@ img.centered {
 
 /* Features
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.fb-feed-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
 .map {
   margin-top: 20px;
 }
